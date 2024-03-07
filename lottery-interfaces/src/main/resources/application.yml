@@ -3,7 +3,7 @@ server:
 
 spring:
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: //...
     producer:
       # 发生错误后，消息重发的次数。
       retries: 1
@@ -41,7 +41,7 @@ spring:
 
 # xxl-job
 # 官网：https://github.com/xuxueli/xxl-job/
-# 地址：http://localhost:7397/xxl-job-admin 【需要先启动 xxl-job】
+# 地址：http://localhost:7397/xxl-job-admin 
 # 账号：admin
 # 密码：123456
 xxl:
@@ -69,18 +69,18 @@ mini-db-router:
       db00:
         driver-class-name: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/lottery?useUnicode=true&serverTimezone=Asia/Shanghai
-        username: root
-        password: 123456
+        username: //...
+        password: //...
       db01:
         driver-class-name: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/lottery_01?useUnicode=true&serverTimezone=Asia/Shanghai
-        username: root
-        password: 123456
+        username: //...
+        password: //...
       db02:
         driver-class-name: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/lottery_02?useUnicode=true&serverTimezone=Asia/Shanghai
-        username: root
-        password: 123456
+        username: //...
+        password: //...
 
 
 # Mybatis
