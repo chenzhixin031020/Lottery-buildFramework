@@ -1,0 +1,15 @@
+/.idea/
+/Lottery.iml
+/lottery-application/lottery-application.iml
+/lottery-common/lottery-common.iml
+/lottery-domain/lottery-domain.iml
+/lottery-infrastructure/lottery-infrastructure.iml
+/lottery-interfaces/lottery-interfaces.iml
+/lottery-rpc/lottery-rpc.iml
+# 项目排除路径
+/lottery-application/target/
+/lottery-common/target/
+/lottery-domain/target/
+/lottery-infrastructure/target/
+/lottery-interfaces/target/
+/lottery-rpc/target/
